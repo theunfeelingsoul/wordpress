@@ -1,0 +1,241 @@
+/*
+ Theme Name:   Flatfish
+ Description:  An ultra flat Flounder Child Theme. You will need the Flounder theme to be installed to use this theme.
+ Author:       Michael Arestad
+ Author URI:   http://michaelarestad.com
+ Template:     flounder
+ Version:      1.0.0
+ License:      GNU General Public License
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         two-columns, three-columns, left-sidebar, right-sidebar, post-formats, custom-header, featured-images, editor-style, threaded-comments, flexible-width, custom-menu, orange, gray, light
+*/
+
+@import url("../flounder/style.css");
+
+body {
+	background: #eff0f4;
+}
+
+.site-branding {
+	background: #e85f3d;
+}
+
+
+/* Tables */
+.hentry th,
+.hentry td {
+	padding: 10px;
+}
+.hentry th,
+.hentry th a {
+	background: #afb7c7;
+	color: #fff;
+}
+.hentry td {
+	border: 0;
+	background: #eff0f4;
+}
+
+
+/* Code */
+.hentry .entry-content code,
+.hentry .entry-content pre {
+	background: #eff0f4;
+}
+
+
+/* Form fields */
+input[type="password"] {
+	border: 1px solid #c8ceda;
+}
+
+
+/* Buttons */
+.hentry button,
+.hentry input[type='submit'],
+.hentry input[type='reset'] {
+	background: #e85f3d;
+}
+
+
+/* Media */
+.format-gallery .entry-image,
+.entry-image,
+.format-image .wp-caption {
+	background: #afb7c7;
+}
+.format-gallery .entry-image .wp-caption-text,
+.format-image .wp-caption-text {
+	color: #fff;
+}
+
+
+/* Header  */
+.site-header a {
+	color: #fff;
+}
+
+
+/* Navigation */
+.navigation a {
+	color: #fff;
+	background: #afb7c7;
+}
+
+
+/* Posts */
+.hentry,
+.hentry.type-page,
+.hentry.error404,
+.hentry.no-results {
+	background: #fff;
+}
+
+.hentry .entry-header,
+.hentry.type-page .entry-header,
+.hentry.error404 .entry-header,
+.hentry.no-results .entry-header {
+	background: #c8ceda;
+	color: #fff;
+}
+
+.hentry .entry-header a,
+.hentry .entry-meta a {
+	color: #fff;
+}
+
+.hentry .entry-meta,
+.hentry.type-page .entry-meta,
+.hentry.error404 .entry-meta,
+.hentry.no-results .entry-meta {
+	background: #afb7c7;
+	color: #848ea3;
+}
+
+.hentry .entry-meta a:hover {
+	color: #fff;
+}
+
+.hentry .entry-meta .meta {
+	background: #c8ceda;
+}
+
+.hentry .format-icon {
+	color: #afb7c7;
+	background: #eff0f4;
+}
+
+.format-image .entry-meta {
+	color: #292e39;
+}
+
+.hentry h2 a,
+.hentry .comment-links a,
+.hentry #reply-title a {
+	color: #c8ceda;
+}
+
+.hentry h2 a:hover ,
+.hentry .comment-links a:hover ,
+.hentry #reply-title a:hover {
+	color: #0f92e5;
+}
+
+.hentry h2,
+.hentry .comment-links,
+.hentry #reply-title {
+	color: #292e39;
+}
+
+.format-aside .entry-header.entry-meta .meta,
+.format-link .entry-header.entry-meta .meta,
+.format-quote .entry-header.entry-meta .meta,
+.format-status .entry-header.entry-meta .meta {
+	border-color: #afb7c7;
+}
+
+.hentry .entry-header a:hover,
+.hentry .entry-header a:focus {
+	color: #fff;
+}
+
+.format-link .entry-content a:first-of-type {
+	color: #e85f3d;
+}
+
+
+/* Widgets */
+.widget {
+	background: #c8ceda;
+	color: #848ea3;
+}
+
+.widget li,
+.widget.widget_recent_comments li {
+	border-bottom-color: #afb7c7;
+}
+
+.widget a,
+.widget li a {
+	color: #fff;
+}
+
+.widget .widget-title {
+	background: #afb7c7;
+}
+
+.widget #wp-calendar th,
+.widget #wp-calendar a {
+	background: #848ea3;
+}
+
+
+/* Sharing */
+div.sharedaddy div.sd-block {
+	margin-top: 15px;
+	padding: 12px 0 6px;
+}
+
+div.sd-gplus {
+	padding: 6px 0;
+}
+
+div.sd-like {
+	padding: 10px 0;
+}
+
+div.sharedaddy h3 {
+	display: none;
+}
+
+div.sharedaddy .post-likes-widget,
+div.sharedaddy .sd-content {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+
+
+/* Comments */
+article.comment,
+li.comment li.comment article.comment,
+li.pingback p {
+	background: #eef1f5;
+	color: #5b606c;
+}
+
+article.comment:after,
+li.comment li.comment article.comment:after {
+	border-color: transparent #eef1f5;
+}
+
+article.comment footer a,
+li.pingback p a {
+	color: #8693ad;
+}
+
+article.comment footer a:hover,
+li.pingback p a:hover {
+	color: #8693ad;
+	text-decoration: underline;
+}
